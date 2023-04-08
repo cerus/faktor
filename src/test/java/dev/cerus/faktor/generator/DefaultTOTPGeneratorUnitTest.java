@@ -22,7 +22,7 @@ public class DefaultTOTPGeneratorUnitTest {
     }
 
     @Test
-    public void testGenerateTOTP_Backwards() {
+    public void testGenerateTOTPBackwards() {
         final long timeStep = TimeUnit.SECONDS.toMillis(30);
         assertDoesNotThrow(() -> {
             final int totp1 = this.generator.generateTOTP(this.secret, 1703 * 100_000_000L, timeStep, 6, 0, HMACAlgorithm.SHA1);
@@ -35,7 +35,7 @@ public class DefaultTOTPGeneratorUnitTest {
     }
 
     @Test
-    public void testGenerateTOTP_SHA1() {
+    public void testGenerateTOTPSHA1() {
         final long timeStep = TimeUnit.SECONDS.toMillis(30);
         assertDoesNotThrow(() -> {
             final int totp1 = this.generator.generateTOTP(this.secret, 1703 * 100_000_000L, timeStep, 6, HMACAlgorithm.SHA1);
@@ -48,7 +48,7 @@ public class DefaultTOTPGeneratorUnitTest {
     }
 
     @Test
-    public void testGenerateTOTP_SHA256() {
+    public void testGenerateTOTPSHA256() {
         final long timeStep = TimeUnit.SECONDS.toMillis(30);
         assertDoesNotThrow(() -> {
             final int totp1 = this.generator.generateTOTP(this.secret, 1703 * 100_000_000L, timeStep, 6, HMACAlgorithm.SHA256);
@@ -61,7 +61,7 @@ public class DefaultTOTPGeneratorUnitTest {
     }
 
     @Test
-    public void testGenerateTOTP_SHA512() {
+    public void testGenerateTOTPSHA512() {
         final long timeStep = TimeUnit.SECONDS.toMillis(30);
         assertDoesNotThrow(() -> {
             final int totp1 = this.generator.generateTOTP(this.secret, 1703 * 100_000_000L, timeStep, 6, HMACAlgorithm.SHA512);

@@ -1,6 +1,7 @@
 <div align="center">
     <h1>faktor 🔐</h1>
-    Tiny <a href="https://www.rfc-editor.org/rfc/rfc4226" target="_blank">RFC 4226</a> & <a href="https://www.rfc-editor.org/rfc/rfc6238" target="_blank">RFC 6238</a> compliant one-time password generation & validation library for Java
+    <p>Tiny <a href="https://www.rfc-editor.org/rfc/rfc4226" target="_blank">RFC 4226</a> & <a href="https://www.rfc-editor.org/rfc/rfc6238" target="_blank">RFC 6238</a> compliant one-time password generation & validation library for Java</p> 
+    <img alt="GitHub" src="https://img.shields.io/github/license/cerus/faktor"> <a href="https://app.codacy.com/gh/cerus/faktor/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/f22c4b117b0a406a82c15e68f736f75d"/></a> <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/cerus">
 </div>
 <hr>
 

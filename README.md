@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
     <h1>faktor 🔐</h1>
     Tiny <a href="https://www.rfc-editor.org/rfc/rfc4226" target="_blank">RFC 4226</a> & <a href="https://www.rfc-editor.org/rfc/rfc6238" target="_blank">RFC 6238</a> compliant one-time password generation & validation library for Java
 </div>
@@ -129,6 +129,10 @@ class Example {
 
 }
 ```
+
+## Contributing
+
+Please see [CONTRIBUTING.md](/CONTRIBUTING.md) for more information.
 
 ## License
 

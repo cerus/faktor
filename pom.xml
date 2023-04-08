@@ -8,6 +8,10 @@
     <artifactId>faktor</artifactId>
     <version>1.0.0</version>
 
+    <name>faktor</name>
+    <description>Tiny &amp; lightweight RFC 4226 &amp; RFC 6238 compliant one-time password generation &amp; validation library for Java</description>
+    <url>https://github.com/cerus/faktor</url>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -80,7 +84,7 @@
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.7</version>
+                <version>1.6.13</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>ossrh</serverId>
